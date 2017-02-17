@@ -12,6 +12,8 @@
 		FA91E4621E56324000FDCFEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA91E4601E56324000FDCFEF /* Main.storyboard */; };
 		FA91E4641E56324000FDCFEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA91E4631E56324000FDCFEF /* Assets.xcassets */; };
 		FA91E4671E56324000FDCFEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA91E4651E56324000FDCFEF /* LaunchScreen.storyboard */; };
+		FA91E4751E566F8400FDCFEF /* fonts.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA91E4741E566F8400FDCFEF /* fonts.ttf */; };
+		FA91E4771E56714700FDCFEF /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA91E4761E56714700FDCFEF /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FA91E4631E56324000FDCFEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA91E4661E56324000FDCFEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA91E4681E56324000FDCFEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA91E4741E566F8400FDCFEF /* fonts.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fonts.ttf; sourceTree = "<group>"; };
+		FA91E4761E56714700FDCFEF /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		FA91E45B1E56324000FDCFEF /* Retro Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				FA91E4741E566F8400FDCFEF /* fonts.ttf */,
+				FA91E4761E56714700FDCFEF /* btn.wav */,
 				FA91E45C1E56324000FDCFEF /* AppDelegate.swift */,
 				FA91E45E1E56324000FDCFEF /* ViewController.swift */,
 				FA91E4601E56324000FDCFEF /* Main.storyboard */,
@@ -124,8 +130,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA91E4771E56714700FDCFEF /* btn.wav in Resources */,
 				FA91E4671E56324000FDCFEF /* LaunchScreen.storyboard in Resources */,
 				FA91E4641E56324000FDCFEF /* Assets.xcassets in Resources */,
+				FA91E4751E566F8400FDCFEF /* fonts.ttf in Resources */,
 				FA91E4621E56324000FDCFEF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +271,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RG984Y4MMV;
 				INFOPLIST_FILE = "Retro Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.course.Retro-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +285,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RG984Y4MMV;
 				INFOPLIST_FILE = "Retro Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.course.Retro-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
